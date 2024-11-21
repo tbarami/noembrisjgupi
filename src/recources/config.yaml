@@ -1,0 +1,3 @@
+base_url: "https://e-school.ge/?"
+browser: "chrome"
+chromedriver: 'D:\pythonProject6\src\utils\chromedriver.exe'

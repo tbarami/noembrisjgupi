@@ -1,0 +1,7 @@
+seleniumi  - amversiis
+
+viyenebt - aset python
+
+browsers - versiebs
+
+webdriver.
