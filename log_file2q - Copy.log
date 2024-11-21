@@ -1,0 +1,199 @@
+2024-11-21 20:03:17,140:INFO:123
+2024-11-21 20:05:47,870:DEBUG:POST http://127.0.0.1:51955/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:05:47,871:DEBUG:Starting new HTTP connection (1): 127.0.0.1:51955
+2024-11-21 20:05:48,464:DEBUG:http://127.0.0.1:51955 "POST /session HTTP/1.1" 200 880
+2024-11-21 20:05:48,464:DEBUG:Finished Request
+2024-11-21 20:05:48,464:INFO:driveri shevqmenit
+2024-11-21 20:05:48,465:DEBUG:POST http://127.0.0.1:51955/session/b07a9246241fa42121a5f0ad4efdc8bb/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:05:49,128:DEBUG:http://127.0.0.1:51955 "POST /session/b07a9246241fa42121a5f0ad4efdc8bb/url HTTP/1.1" 200 14
+2024-11-21 20:05:49,128:DEBUG:Finished Request
+2024-11-21 20:05:54,130:INFO:web gverdi gaixsna
+2024-11-21 20:05:54,130:DEBUG:DELETE http://127.0.0.1:51955/session/b07a9246241fa42121a5f0ad4efdc8bb {}
+2024-11-21 20:05:54,169:DEBUG:http://127.0.0.1:51955 "DELETE /session/b07a9246241fa42121a5f0ad4efdc8bb HTTP/1.1" 200 14
+2024-11-21 20:05:54,170:DEBUG:Finished Request
+2024-11-21 20:12:24,426:DEBUG:POST http://127.0.0.1:52053/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:12:24,427:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52053
+2024-11-21 20:12:24,984:DEBUG:http://127.0.0.1:52053 "POST /session HTTP/1.1" 200 881
+2024-11-21 20:12:24,984:DEBUG:Finished Request
+2024-11-21 20:12:24,984:INFO:driveri shevqmenit
+2024-11-21 20:12:24,984:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:12:25,647:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/url HTTP/1.1" 200 14
+2024-11-21 20:12:25,647:DEBUG:Finished Request
+2024-11-21 20:12:26,649:INFO:web gverdi gaixsna
+2024-11-21 20:12:26,649:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:12:26,660:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element HTTP/1.1" 200 125
+2024-11-21 20:12:26,660:DEBUG:Finished Request
+2024-11-21 20:12:26,660:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.4/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.4"}
+2024-11-21 20:12:26,706:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.4/value HTTP/1.1" 200 14
+2024-11-21 20:12:26,706:DEBUG:Finished Request
+2024-11-21 20:12:26,706:INFO:gavagzavnet username
+2024-11-21 20:12:26,706:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element {"using": "css selector", "value": "[id=\"urpass\"]"}
+2024-11-21 20:12:26,714:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element HTTP/1.1" 200 125
+2024-11-21 20:12:26,715:DEBUG:Finished Request
+2024-11-21 20:12:26,715:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.5/value {"text": "123", "value": ["1", "2", "3"], "id": "f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.5"}
+2024-11-21 20:12:26,744:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:12:26,744:DEBUG:Finished Request
+2024-11-21 20:12:26,744:INFO:gavagzavnet password
+2024-11-21 20:12:28,755:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element {"using": "xpath", "value": "/html/body/div/div/div[2]/div[1]/div[2]/div/form/div/div[3]/input"}
+2024-11-21 20:12:28,764:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element HTTP/1.1" 200 125
+2024-11-21 20:12:28,764:DEBUG:Finished Request
+2024-11-21 20:12:28,764:DEBUG:POST http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.9/click {"id": "f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.9"}
+2024-11-21 20:12:28,896:DEBUG:http://127.0.0.1:52053 "POST /session/19262790284473e0cc90b8931b63bb60/element/f.1E2C1A35424EFE548EF4B24124E7B956.d.D40DF8CC708DD100366082724BA77F97.e.9/click HTTP/1.1" 200 14
+2024-11-21 20:12:28,897:DEBUG:Finished Request
+2024-11-21 20:12:28,897:INFO:davlogindit
+2024-11-21 20:12:28,897:DEBUG:DELETE http://127.0.0.1:52053/session/19262790284473e0cc90b8931b63bb60 {}
+2024-11-21 20:12:28,940:DEBUG:http://127.0.0.1:52053 "DELETE /session/19262790284473e0cc90b8931b63bb60 HTTP/1.1" 200 14
+2024-11-21 20:12:28,940:DEBUG:Finished Request
+2024-11-21 20:18:37,571:DEBUG:POST http://127.0.0.1:52253/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:18:37,571:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52253
+2024-11-21 20:18:38,148:DEBUG:http://127.0.0.1:52253 "POST /session HTTP/1.1" 200 882
+2024-11-21 20:18:38,149:DEBUG:Finished Request
+2024-11-21 20:18:38,149:INFO:driveri shevqmenit
+2024-11-21 20:18:38,149:DEBUG:POST http://127.0.0.1:52253/session/d10348042a1035de39b3e1d8749d6c40/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:18:38,832:DEBUG:http://127.0.0.1:52253 "POST /session/d10348042a1035de39b3e1d8749d6c40/url HTTP/1.1" 200 14
+2024-11-21 20:18:38,832:DEBUG:Finished Request
+2024-11-21 20:18:39,837:INFO:web gverdi gaixsna
+2024-11-21 20:18:39,837:DEBUG:POST http://127.0.0.1:52253/session/d10348042a1035de39b3e1d8749d6c40/element {"using": "css selector", "value": "[id=\"urname2121211121212\"]"}
+2024-11-21 20:18:39,847:DEBUG:http://127.0.0.1:52253 "POST /session/d10348042a1035de39b3e1d8749d6c40/element HTTP/1.1" 404 1068
+2024-11-21 20:18:39,847:DEBUG:Finished Request
+2024-11-21 20:18:39,848:ERROR:aq moxda Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="urname2121211121212"]"}
+  (Session info: chrome=131.0.6778.71)
+
+2024-11-21 20:18:39,848:DEBUG:DELETE http://127.0.0.1:52253/session/d10348042a1035de39b3e1d8749d6c40 {}
+2024-11-21 20:18:39,876:DEBUG:http://127.0.0.1:52253 "DELETE /session/d10348042a1035de39b3e1d8749d6c40 HTTP/1.1" 200 14
+2024-11-21 20:18:39,877:DEBUG:Finished Request
+2024-11-21 20:21:39,294:DEBUG:POST http://127.0.0.1:52357/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:21:39,294:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52357
+2024-11-21 20:21:39,834:DEBUG:http://127.0.0.1:52357 "POST /session HTTP/1.1" 200 880
+2024-11-21 20:21:39,835:DEBUG:Finished Request
+2024-11-21 20:21:39,835:INFO:driveri shevqmenit
+2024-11-21 20:21:39,835:DEBUG:POST http://127.0.0.1:52357/session/11d6ea538a82da0a97c0f3ae8d8ec870/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:21:40,579:DEBUG:http://127.0.0.1:52357 "POST /session/11d6ea538a82da0a97c0f3ae8d8ec870/url HTTP/1.1" 200 14
+2024-11-21 20:21:40,580:DEBUG:Finished Request
+2024-11-21 20:21:41,593:INFO:web gverdi gaixsna
+2024-11-21 20:21:41,593:DEBUG:POST http://127.0.0.1:52357/session/11d6ea538a82da0a97c0f3ae8d8ec870/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:21:41,602:DEBUG:http://127.0.0.1:52357 "POST /session/11d6ea538a82da0a97c0f3ae8d8ec870/element HTTP/1.1" 200 125
+2024-11-21 20:21:41,603:DEBUG:Finished Request
+2024-11-21 20:21:41,603:DEBUG:POST http://127.0.0.1:52357/session/11d6ea538a82da0a97c0f3ae8d8ec870/element/f.7DE2E6D076EC37950C17BC587B5F5224.d.3A2577A7B99D18AF67105062116E5D05.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.7DE2E6D076EC37950C17BC587B5F5224.d.3A2577A7B99D18AF67105062116E5D05.e.5"}
+2024-11-21 20:21:41,647:DEBUG:http://127.0.0.1:52357 "POST /session/11d6ea538a82da0a97c0f3ae8d8ec870/element/f.7DE2E6D076EC37950C17BC587B5F5224.d.3A2577A7B99D18AF67105062116E5D05.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:21:41,647:DEBUG:Finished Request
+2024-11-21 20:21:41,647:INFO:gavagzavnet username
+2024-11-21 20:21:41,648:INFO:sxva erorr amovida
+2024-11-21 20:21:41,648:DEBUG:DELETE http://127.0.0.1:52357/session/11d6ea538a82da0a97c0f3ae8d8ec870 {}
+2024-11-21 20:21:41,676:DEBUG:http://127.0.0.1:52357 "DELETE /session/11d6ea538a82da0a97c0f3ae8d8ec870 HTTP/1.1" 200 14
+2024-11-21 20:21:41,676:DEBUG:Finished Request
+2024-11-21 20:23:20,250:DEBUG:POST http://127.0.0.1:52447/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:23:20,251:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52447
+2024-11-21 20:23:20,900:DEBUG:http://127.0.0.1:52447 "POST /session HTTP/1.1" 200 881
+2024-11-21 20:23:20,901:DEBUG:Finished Request
+2024-11-21 20:23:20,901:INFO:driveri shevqmenit
+2024-11-21 20:23:20,901:DEBUG:POST http://127.0.0.1:52447/session/9aa3fd02a1c81520d3cccb894e8e0d29/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:23:21,579:DEBUG:http://127.0.0.1:52447 "POST /session/9aa3fd02a1c81520d3cccb894e8e0d29/url HTTP/1.1" 200 14
+2024-11-21 20:23:21,580:DEBUG:Finished Request
+2024-11-21 20:23:22,592:INFO:web gverdi gaixsna
+2024-11-21 20:23:22,592:DEBUG:POST http://127.0.0.1:52447/session/9aa3fd02a1c81520d3cccb894e8e0d29/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:23:22,601:DEBUG:http://127.0.0.1:52447 "POST /session/9aa3fd02a1c81520d3cccb894e8e0d29/element HTTP/1.1" 200 125
+2024-11-21 20:23:22,601:DEBUG:Finished Request
+2024-11-21 20:23:22,602:DEBUG:POST http://127.0.0.1:52447/session/9aa3fd02a1c81520d3cccb894e8e0d29/element/f.C5DBC7D59F5D37F6FAD2AF030EDD5034.d.485D4440ABF46A271501A5A318FD0B61.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.C5DBC7D59F5D37F6FAD2AF030EDD5034.d.485D4440ABF46A271501A5A318FD0B61.e.5"}
+2024-11-21 20:23:22,647:DEBUG:http://127.0.0.1:52447 "POST /session/9aa3fd02a1c81520d3cccb894e8e0d29/element/f.C5DBC7D59F5D37F6FAD2AF030EDD5034.d.485D4440ABF46A271501A5A318FD0B61.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:23:22,648:DEBUG:Finished Request
+2024-11-21 20:23:22,648:INFO:gavagzavnet username
+2024-11-21 20:23:22,648:DEBUG:GET http://127.0.0.1:52447/session/9aa3fd02a1c81520d3cccb894e8e0d29/title {}
+2024-11-21 20:23:22,651:DEBUG:http://127.0.0.1:52447 "GET /session/9aa3fd02a1c81520d3cccb894e8e0d29/title HTTP/1.1" 200 26
+2024-11-21 20:23:22,651:DEBUG:Finished Request
+2024-11-21 20:23:22,651:INFO:
+2024-11-21 20:23:22,652:DEBUG:DELETE http://127.0.0.1:52447/session/9aa3fd02a1c81520d3cccb894e8e0d29 {}
+2024-11-21 20:23:22,683:DEBUG:http://127.0.0.1:52447 "DELETE /session/9aa3fd02a1c81520d3cccb894e8e0d29 HTTP/1.1" 200 14
+2024-11-21 20:23:22,683:DEBUG:Finished Request
+2024-11-21 20:23:49,215:DEBUG:POST http://127.0.0.1:52481/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:23:49,215:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52481
+2024-11-21 20:23:49,758:DEBUG:http://127.0.0.1:52481 "POST /session HTTP/1.1" 200 881
+2024-11-21 20:23:49,758:DEBUG:Finished Request
+2024-11-21 20:23:49,758:INFO:driveri shevqmenit
+2024-11-21 20:23:49,758:DEBUG:POST http://127.0.0.1:52481/session/1d75ec014d0568c01d5b82501a6df150/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:23:50,445:DEBUG:http://127.0.0.1:52481 "POST /session/1d75ec014d0568c01d5b82501a6df150/url HTTP/1.1" 200 14
+2024-11-21 20:23:50,445:DEBUG:Finished Request
+2024-11-21 20:23:51,455:INFO:web gverdi gaixsna
+2024-11-21 20:23:51,455:DEBUG:POST http://127.0.0.1:52481/session/1d75ec014d0568c01d5b82501a6df150/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:23:51,465:DEBUG:http://127.0.0.1:52481 "POST /session/1d75ec014d0568c01d5b82501a6df150/element HTTP/1.1" 200 125
+2024-11-21 20:23:51,466:DEBUG:Finished Request
+2024-11-21 20:23:51,466:DEBUG:POST http://127.0.0.1:52481/session/1d75ec014d0568c01d5b82501a6df150/element/f.B334D16F657407950743CF4093FB44C8.d.FBF642B8CD8177C82056421876A2E352.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.B334D16F657407950743CF4093FB44C8.d.FBF642B8CD8177C82056421876A2E352.e.5"}
+2024-11-21 20:23:55,404:INFO:sxva erorr amovida
+2024-11-21 20:23:55,404:DEBUG:DELETE http://127.0.0.1:52481/session/1d75ec014d0568c01d5b82501a6df150 {}
+2024-11-21 20:23:55,404:DEBUG:Starting new HTTP connection (2): 127.0.0.1:52481
+2024-11-21 20:24:04,476:DEBUG:POST http://127.0.0.1:52512/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:24:04,476:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52512
+2024-11-21 20:24:05,003:DEBUG:http://127.0.0.1:52512 "POST /session HTTP/1.1" 200 882
+2024-11-21 20:24:05,003:DEBUG:Finished Request
+2024-11-21 20:24:05,003:INFO:driveri shevqmenit
+2024-11-21 20:24:05,003:DEBUG:POST http://127.0.0.1:52512/session/00bc369a5cc9a5b32acb372298a417af/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:24:05,707:DEBUG:http://127.0.0.1:52512 "POST /session/00bc369a5cc9a5b32acb372298a417af/url HTTP/1.1" 200 14
+2024-11-21 20:24:05,708:DEBUG:Finished Request
+2024-11-21 20:24:06,724:INFO:web gverdi gaixsna
+2024-11-21 20:24:06,724:DEBUG:POST http://127.0.0.1:52512/session/00bc369a5cc9a5b32acb372298a417af/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:24:06,733:DEBUG:http://127.0.0.1:52512 "POST /session/00bc369a5cc9a5b32acb372298a417af/element HTTP/1.1" 200 125
+2024-11-21 20:24:06,734:DEBUG:Finished Request
+2024-11-21 20:24:06,734:DEBUG:POST http://127.0.0.1:52512/session/00bc369a5cc9a5b32acb372298a417af/element/f.D08CC717F3ABA228EA495369B396FE0E.d.85D5F2290606B4763C223706277C23DC.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.D08CC717F3ABA228EA495369B396FE0E.d.85D5F2290606B4763C223706277C23DC.e.5"}
+2024-11-21 20:24:06,778:DEBUG:http://127.0.0.1:52512 "POST /session/00bc369a5cc9a5b32acb372298a417af/element/f.D08CC717F3ABA228EA495369B396FE0E.d.85D5F2290606B4763C223706277C23DC.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:24:06,779:DEBUG:Finished Request
+2024-11-21 20:24:06,779:INFO:gavagzavnet username
+2024-11-21 20:24:06,779:DEBUG:GET http://127.0.0.1:52512/session/00bc369a5cc9a5b32acb372298a417af/title {}
+2024-11-21 20:24:06,782:DEBUG:http://127.0.0.1:52512 "GET /session/00bc369a5cc9a5b32acb372298a417af/title HTTP/1.1" 200 26
+2024-11-21 20:24:06,782:DEBUG:Finished Request
+2024-11-21 20:24:06,782:INFO:
+2024-11-21 20:24:06,782:DEBUG:DELETE http://127.0.0.1:52512/session/00bc369a5cc9a5b32acb372298a417af {}
+2024-11-21 20:24:06,812:DEBUG:http://127.0.0.1:52512 "DELETE /session/00bc369a5cc9a5b32acb372298a417af HTTP/1.1" 200 14
+2024-11-21 20:24:06,812:DEBUG:Finished Request
+2024-11-21 20:24:45,958:DEBUG:POST http://127.0.0.1:52553/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:24:45,959:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52553
+2024-11-21 20:24:46,486:DEBUG:http://127.0.0.1:52553 "POST /session HTTP/1.1" 200 881
+2024-11-21 20:24:46,487:DEBUG:Finished Request
+2024-11-21 20:24:46,487:INFO:driveri shevqmenit
+2024-11-21 20:24:46,487:DEBUG:POST http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:24:47,194:DEBUG:http://127.0.0.1:52553 "POST /session/c19ca55f9a33c847e9886466bb56eba1/url HTTP/1.1" 200 14
+2024-11-21 20:24:47,194:DEBUG:Finished Request
+2024-11-21 20:24:48,207:INFO:web gverdi gaixsna
+2024-11-21 20:24:48,207:DEBUG:POST http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:24:48,216:DEBUG:http://127.0.0.1:52553 "POST /session/c19ca55f9a33c847e9886466bb56eba1/element HTTP/1.1" 200 125
+2024-11-21 20:24:48,216:DEBUG:Finished Request
+2024-11-21 20:24:48,217:DEBUG:POST http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1/element/f.6FC3F5F40944259C90D3E0C84F9E2EE4.d.C348B6C981E6E861489FA135EA187BE1.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.6FC3F5F40944259C90D3E0C84F9E2EE4.d.C348B6C981E6E861489FA135EA187BE1.e.5"}
+2024-11-21 20:24:48,260:DEBUG:http://127.0.0.1:52553 "POST /session/c19ca55f9a33c847e9886466bb56eba1/element/f.6FC3F5F40944259C90D3E0C84F9E2EE4.d.C348B6C981E6E861489FA135EA187BE1.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:24:48,261:DEBUG:Finished Request
+2024-11-21 20:24:48,261:INFO:gavagzavnet username
+2024-11-21 20:24:48,261:DEBUG:GET http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1/title {}
+2024-11-21 20:24:48,264:DEBUG:http://127.0.0.1:52553 "GET /session/c19ca55f9a33c847e9886466bb56eba1/title HTTP/1.1" 200 26
+2024-11-21 20:24:48,265:DEBUG:Finished Request
+2024-11-21 20:24:48,265:DEBUG:GET http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1/title {}
+2024-11-21 20:24:48,267:DEBUG:http://127.0.0.1:52553 "GET /session/c19ca55f9a33c847e9886466bb56eba1/title HTTP/1.1" 200 26
+2024-11-21 20:24:48,267:DEBUG:Finished Request
+2024-11-21 20:24:48,267:INFO:ar yopila E-school Login
+2024-11-21 20:24:48,267:DEBUG:DELETE http://127.0.0.1:52553/session/c19ca55f9a33c847e9886466bb56eba1 {}
+2024-11-21 20:24:48,302:DEBUG:http://127.0.0.1:52553 "DELETE /session/c19ca55f9a33c847e9886466bb56eba1 HTTP/1.1" 200 14
+2024-11-21 20:24:48,303:DEBUG:Finished Request
+2024-11-21 20:25:20,330:DEBUG:POST http://127.0.0.1:52591/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2024-11-21 20:25:20,331:DEBUG:Starting new HTTP connection (1): 127.0.0.1:52591
+2024-11-21 20:25:20,966:DEBUG:http://127.0.0.1:52591 "POST /session HTTP/1.1" 200 881
+2024-11-21 20:25:20,967:DEBUG:Finished Request
+2024-11-21 20:25:20,967:INFO:driveri shevqmenit
+2024-11-21 20:25:20,967:DEBUG:POST http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3/url {"url": "https://e-school.ge/?"}
+2024-11-21 20:25:21,706:DEBUG:http://127.0.0.1:52591 "POST /session/89796933b78cd3d5ba4c60b5d1e321f3/url HTTP/1.1" 200 14
+2024-11-21 20:25:21,706:DEBUG:Finished Request
+2024-11-21 20:25:22,713:INFO:web gverdi gaixsna
+2024-11-21 20:25:22,713:DEBUG:POST http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3/element {"using": "css selector", "value": "[id=\"urname\"]"}
+2024-11-21 20:25:22,722:DEBUG:http://127.0.0.1:52591 "POST /session/89796933b78cd3d5ba4c60b5d1e321f3/element HTTP/1.1" 200 125
+2024-11-21 20:25:22,722:DEBUG:Finished Request
+2024-11-21 20:25:22,723:DEBUG:POST http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3/element/f.F52641F147B7D472F8D6567526078973.d.76DF0C05B1A2C48A129C9FD0C6985E73.e.5/value {"text": "tap@gmail.com", "value": ["t", "a", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f.F52641F147B7D472F8D6567526078973.d.76DF0C05B1A2C48A129C9FD0C6985E73.e.5"}
+2024-11-21 20:25:22,767:DEBUG:http://127.0.0.1:52591 "POST /session/89796933b78cd3d5ba4c60b5d1e321f3/element/f.F52641F147B7D472F8D6567526078973.d.76DF0C05B1A2C48A129C9FD0C6985E73.e.5/value HTTP/1.1" 200 14
+2024-11-21 20:25:22,767:DEBUG:Finished Request
+2024-11-21 20:25:22,767:INFO:gavagzavnet username
+2024-11-21 20:25:22,767:DEBUG:GET http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3/title {}
+2024-11-21 20:25:22,770:DEBUG:http://127.0.0.1:52591 "GET /session/89796933b78cd3d5ba4c60b5d1e321f3/title HTTP/1.1" 200 26
+2024-11-21 20:25:22,770:DEBUG:Finished Request
+2024-11-21 20:25:22,770:DEBUG:GET http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3/title {}
+2024-11-21 20:25:22,772:DEBUG:http://127.0.0.1:52591 "GET /session/89796933b78cd3d5ba4c60b5d1e321f3/title HTTP/1.1" 200 26
+2024-11-21 20:25:22,772:DEBUG:Finished Request
+2024-11-21 20:25:22,773:INFO:namdvilad E-school Login aris title
+2024-11-21 20:25:22,773:INFO:sxva erorr amovida
+2024-11-21 20:25:22,773:DEBUG:DELETE http://127.0.0.1:52591/session/89796933b78cd3d5ba4c60b5d1e321f3 {}
+2024-11-21 20:25:22,805:DEBUG:http://127.0.0.1:52591 "DELETE /session/89796933b78cd3d5ba4c60b5d1e321f3 HTTP/1.1" 200 14
+2024-11-21 20:25:22,805:DEBUG:Finished Request
